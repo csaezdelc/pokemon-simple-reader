@@ -1,0 +1,515 @@
+%elementos
+Acero (Steel)	Ac
+Agua (Water) Ag
+Bicho (Bug) Bi
+Dragón (Dragon) Dr
+Eléctrico (Electric) El
+Fantasma (Fantasma) Fa
+Fuego	(Fire)	Fu
+Hielo (Ice) Hi
+Lucha (Fighting) Lu 
+Normal	(Normal) No
+Planta (Grass)	Pl
+Psíquico (Psychic) Ps
+Roca (Rock) Ro
+Siniestro (Dark) Si
+Tierra (Ground) Ti
+Veneno (Poison) Ve
+Volador (Flyting) Vo
+
+
+%pokemons
+
+1	Bulbasaur	001aHuevo	Pl	Ve
+2	Ivysaur		001bBulbasaur	Pl	Ve
+3	Venusaur	001cIvysaur	Pl	Ve
+4	Charmander	004aHuevo	Fu
+5	Charmeleon	004bCharmander	Fu
+6	Charizard	004cCharmeleon	Fu	Vo
+7	Squirtle	007aHuevo	Ag
+8	Wartortle	007bSquirtle	Ag
+9	Blastoise	007cWartortle	Ag
+10	Caterpie	010aHuevo	Bi
+11	Metapod		010bCaterpie	Bi
+12	Butterfree	010cMetapod	Bi	Vo
+13	Weedle		013aHuevo	Bi	Ve
+14	Kakuna		013bWeedle	Bi	Ve
+15	Beedrill	013cKakuna	Bi	Ve
+16	Pidgey		016aHuevo	No	Vo
+17	Pidgeotto	016bPidgey	No	Vo
+18	Pidgeot		016cPidgeotto	No	Vo
+19	Rattata		019aHuevo	No
+20	Raticate	019bRattata	No
+21	Spearow		021aHuevo	No	Vo
+22	Fearow		021bSpearow	No	Vo
+23	Ekans		023aHuevo	Ve
+24	Arbok		023bEkans	Ve
+25	Pikachu		025bPichu	El
+26	Raichu		025cPikachu	El
+27	Sandshrew	027aHuevo	Ti
+28	Sandslash	027bSandshrew	Ti
+29	Nidoran?	029aHuevo	Ve
+30	Nidorina	029bNidoran?	Ve
+31	Nidoqueen	029cNidorina	Ve	Ti
+32	Nidoran?	032aHuevo	Ve
+33	Nidorino	032bNidoran?	Ve
+34	Nidoking	032cNidorino	Ve	Ti
+35	Clefairy	035bCleffa	No
+36	Clefable	035cClefairy	No
+37	Vulpix		037aHuevo	Fu
+38	Ninetales	037bVulpix	Fu
+39	Jigglypuff	039bIgglybuff	No
+40	Wigglytuff	039cJigglypuff	No
+41	Zubat		041aHuevo	Ve	Vo
+42	Golbat		041bZubat	Ve	Vo
+43	Oddish		043aHuevo	Pl	Ve
+44	Gloom		043bOddish	Pl	Ve
+45	Vileplume	043cGloom	Pl	Ve
+46	Paras		046aHuevo	Bi	Pl
+47	Parasect	046bParas	Pl	Bi
+48	Venonat		048aHuevo	Bi	Ve
+49	Venomoth	048bVenonat	Bi	Ve
+50	Diglett		050aHuevo	Ti
+51	Dugtrio		050bDiglett	Ti
+52	Meowth		052aHuevo	No
+53	Persian		052bMeowth	No
+54	Psyduck		054aHuevo	Ag
+55	Golduck		054bPsyduck	Ag
+56	Mankey		056aHuevo	Lu
+57	Primeape	056bMankey	Lu
+58	Growlithe	058aHuevo	Fu
+59	Arcanine	058bGrowlithe	Fu
+60	Poliwag		060aHuevo	Ag
+61	Poliwhirl	060bPoliwag	Ag
+62	Poliwrath	060cPoliwhirl	Ag	Lu
+63	Abra		063aHuevo	Ps
+64	Kadabra		063bAbra	Ps
+65	Alakazam	063cKadabra	Ps
+66	Machop		066aHuevo	Lu
+67	Machoke		066bMachop	Lu
+68	Machamp		066cMachoke	Lu
+69	Bellsprout	069aHuevo	Pl	Ve
+70	Weepinbell	069bBellsprout	Pl	Ve
+71	Victreebel	069cWeepinbell	Pl	Ve
+72	Tentacool	072aHuevo	Ag	Ve
+73	Tentacruel	072bTentacool	Ag	Ve
+74	Geodude		074aHuevo	Ro	Ti
+75	Graveler	074bGeodude	Ro	Ti
+76	Golem		074cGraveler	Ro	Ti
+77	Ponyta		077aHuevo	Fu
+78	Rapidash	077bPonyta	Fu
+79	Slowpoke	079aHuevo	Ag	Ps
+80	Slowbro		079bSlowpoke	Ag	Ps
+81	Magnemite	081aHuevo	El	Ac
+82	Magneton	081bMagnemite	El	Ac
+83	Farfetchï¿½d	083aHuevo	No	Vo
+84	Doduo		084aHuevo	No	Vo
+85	Dodrio		084bDoduo	No	Vo
+86	Seel		086aHuevo	Ag
+87	Dewgong		086bSeel	Ag	Hi
+88	Grimer		088aHuevo	Ve
+89	Muk		088bGrimer	Ve
+90	Shellder	090aHuevo	Ag
+91	Cloyster	090bShellder	Ag	Hi
+92	Gastly		092aHuevo	Fa	Ve
+93	Haunter		092bGastly	Fa	Ve
+94	Gengar		092cHaunter	Fa	Ve
+95	Onix		095aHuevo	Ro	Ti
+96	Drowzee		096aHuevo	Ps
+97	Hypno		096bDrowzee	Ps
+98	Krabby		098aHuevo	Ag
+99	Kingler		098bKrabby	Ag
+100	Voltorb		100aHuevo	El
+101	Electrode	100bVoltorb	El
+102	Exeggcute	102aHuevo	Pl	Ps
+103	Exeggutor	102bExeggcute	Pl	Ps
+104	Cubone		104aHuevo	Ti
+105	Marowak		104bCubone	Ti
+106	Hitmonlee	106bTyrogue	Lu
+107	Hitmonchan	106cTyrogue	Lu
+108	Lickitung	108aHuevo	No
+109	Koffing		109aHuevo	Ve
+110	Weezing		109bKoffing	Ve
+111	Rhyhorn		111aHuevo	Ti	Ro
+112	Rhydon		111bRhyhorn	Ti	Ro
+113	Chansey		113bHuevo/Happiny	No
+114	Tangela		114aHuevo	Pl
+115	Kangaskhan	115aHuevo	No
+116	Horsea		116aHuevo	Ag
+117	Seadra		116bHorsea	Ag
+118	Goldeen		118aHuevo	Ag
+119	Seaking		118bGoldeen	Ag
+120	Staryu		120aHuevo	Ag
+121	Starmie		120bStaryu	Ag	Ps
+122	Mr. Mime	122bHuevo/Mime Jr.	Ps
+123	Scyther		123aHuevo	Bi	Vo
+124	Jynx		124bSmoochum	Hi	Ps
+125	Electabuzz	125bElekid	El
+126	Magmar		126bMagby	Fu
+127	Pinsir		127Huevo	Bi
+128	Tauros		128Huevo	No
+129	Magikarp	129aHuevo	Ag
+130	Gyarados	129bMagikarp	Ag	Vo
+131	Lapras		131Huevo	Ag	Hi
+132	Ditto		132Huevo	No
+133	Eevee		133aHuevo	No
+134	Vaporeon	133bEevee	Ag
+135	Jolteon		133cEevee	El
+136	Flareon		133dEevee	Fu
+137	Porygon		137aHuevo	No
+138	Omanyte		138aHuevo/F. Helix	Ro	Ag
+139	Omastar		138bOmanyte	Ro	Ag
+140	Kabuto		140aHuevo/F. Domo	Ro	Ag
+141	Kabutops	140bKabuto	Ro	Ag
+142	Aerodactyl	142Huevo/Old Amber	Ro	Vo
+143	Snorlax		143bHuevo/Munchlax	No
+144	Articuno	144ï¿½		Hi	Vo
+145	Zapdos		145ï¿½		El	Vo
+146	Moltres		146ï¿½		Fu	Vo
+147	Dratini		147aHuevo	Dr
+148	Dragonair	147bDratini	Dr
+149	Dragonite	147cDragonair	Dr	Vo
+150	Mewtwo		150ï¿½	Ps
+151	Mew		151ï¿½	Ps
+152	Chikorita	152aHuevo	Pl
+153	Bayleef		152bChikorita	Pl
+154	Meganium	152cBayleef	Pl
+155	Cyndaquil	155aHuevo	Fu
+156	Quilava		155bCyndaquil	Fu
+157	Typhlosion	155cQuilava	Fu
+158	Totodile	158aHuevo	Ag
+159	Croconaw	158bTotodile	Ag
+160	Feraligatr	158cCroconaw	Ag
+161	Sentret		161aHuevo	No
+162	Furret		161bSentret	No
+163	Hoothoot	163aHuevo	No	Vo
+164	Noctowl		163bHoothoot	No	Vo
+165	Ledyba		165aHuevo	Bi	Vo
+166	Ledian		165bLedyba	Bi	Vo
+167	Spinarak	167aHuevo	Bi	Ve
+168	Ariados		167bSpinarak	Bi	Ve
+169	Crobat		041cGolbat	Ve	Vo
+170	Chinchou	170aHuevo	Ag	El
+171	Lanturn		170bChinchou	Ag	El
+172	Pichu		025aHuevo	El
+173	Cleffa		035aHuevo	No
+174	Igglybuff	039aHuevo	No
+175	Togepi		175aHuevo	No
+176	Togetic		175bTogepi	No	Vo
+177	Natu		177aHuevo	Ps	Vo
+178	Xatu		177bNatu	Ps	Vo
+179	Mareep		179aHuevo	El
+180	Flaaffy		179bMareep	El
+181	Ampharos	179cFlaaffy	El
+182	Bellossom	043dGloom	Pl
+183	Marill		183bHuevo/Azurill	Ag
+184	Azumarill	183cMarill	Ag
+185	Sudowoodo	185bHuevo/Bonsly	Ro
+186	Politoed	060dPoliwhirl	Ag
+187	Hoppip		187aHuevo	Pl	Vo
+188	Skiploom	187bHoppip	Pl	Vo
+189	Jumpluff	187cSkiploom	Pl	Vo
+190	Aipom		190aHuevo	No
+191	Sunkern		191aHuevo	Pl
+192	Sunflora	191bSunkern	Pl
+193	Yanma		193aHuevo	Bi	Vo
+194	Wooper		194aHuevo	Ag	Ti
+195	Quagsire	194bWooper	Ag	Ti
+196	Espeon		133eEevee	Ps
+197	Umbreon		133fEevee	Si
+198	Murkrow		198aHuevo	Si	Vo
+199	Slowking	079cSlowpoke	Ag	Ps
+200	Misdreavus	200aHuevo	Fa
+201	Unown		201ï¿½	Ps
+202	Wobbuffet	202bHuevo/Wynaut	Ps
+203	Girafarig	203Huevo	No	Ps
+204	Pineco		204aHuevo	Bi
+205	Forretress	204bPineco	Bi	Ac
+206	Dunsparce	206Huevo	No
+207	Gligar		207aHuevo	Ti	Vo
+208	Steelix		095bOnix	Ac	Ti
+209	Snubbull	209aHuevo	No
+210	Granbull	209bSnubbull	No
+211	Qwilfish	211Huevo	Ag	Ve
+212	Scizor		123bScyther	Bi	Ac
+213	Shuckle		213Huevo	Bi	Ro
+214	Heracross	214Huevo	Bi	Lu
+215	Sneasel		215aHuevo	Si	Hi
+216	Teddiursa	216aHuevo	No
+217	Ursaring	216bTeddiursa	No
+218	Slugma		218aHuevo	Fu
+219	Magcargo	218bSlugma	Fu	Ro
+220	Swinub		220aHuevo	Hi	Ti
+221	Piloswine	220bSwinub	Hi	Ti
+222	Corsola		222Huevo	Ag	Ro
+223	Remoraid	223aHuevo	Ag
+224	Octillery	223bRemoraid	Ag
+225	Delibird	225Huevo	Hi	Vo
+226	Mantine		226bHuevo/Mantyke	Ag	Vo
+227	Skarmory	227Huevo	Ac	Vo
+228	Houndour	228aHuevo	Si	Fu
+229	Houndoom	228bHoundour	Si	Fu
+230	Kingdra		116cSeadra	Ag	Dr
+231	Phanpy		231aHuevo	Ti
+232	Donphan		231bPhanpy	Ti
+233	Porygon2	137bPorygon	No
+234	Stantler	234Huevo	No
+235	Smeargle	235Huevo	No
+236	Tyrogue		106aHuevo	Lu
+237	Hitmontop	106d Tyrogue	Lu
+238	Smoochum	124aHuevo	Hi	Ps
+239	Elekid		125aHuevo	El
+240	Magby		126aHuevo	Fu
+241	Miltank		241Huevo	No
+242	Blissey		113cChansey	No
+243	Raikou		243ï¿½	El
+244	Entei		244ï¿½	Fu
+245	Suicune		245ï¿½	Ag
+246	Larvitar	246aHuevo	Ro	Ti
+247	Pupitar		246bLarvitar	Ro	Ti
+248	Tyranitar	246cPupitar	Ro	Si
+249	Lugia		249ï¿½	Ps	Vo
+250	Ho-Oh		250ï¿½	Fu	Vo
+251	Celebi		251ï¿½	Ps	Pl
+252	Treecko		252aHuevo	Pl
+253	Grovyle		252bTreecko	Pl
+254	Sceptile	252cGrovyle	Pl
+255	Torchic		255aHuevo	Fu
+256	Combusken	255bTorchic	Fu	Lu
+257	Blaziken	255cCombusken	Fu	Lu
+258	Mudkip		258aHuevo	Ag
+259	Marshtomp	258bMudkip	Ag	Ti
+260	Swampert	258cMarshtomp	Ag	Ti
+261	Poochyena	261aHuevo	Si
+262	Mightyena	261bPoochyena	Si
+263	Zigzagoon	263aHuevo	No
+264	Linoone		263bZigzagoon	No
+265	Wurmple		265aHuevo	Bi
+266	Silcoon		265bWurmple(50%)	Bi
+267	Beautifly	265cSilcoon	Bi	Vo
+268	Cascoon		265dWurmple(50%)	Bi
+269	Dustox		265eCascoon	Bi	Ve
+270	Lotad		270aHuevo	Ag	Pl
+271	Lombre		270bLotad	Ag	Pl
+272	Ludicolo	270cLombre	Ag	Pl
+273	Seedot		273aHuevo	Pl
+274	Nuzleaf		273bSeedot	Pl	Si
+275	Shiftry		273cNuzleaf	Pl	Si
+276	Taillow		276aHuevo	No	Vo
+277	Swellow		276bTaillow	No	Vo
+278	Wingull		278aHuevo	Ag	Vo
+279	Pelipper	278bWingull	Ag	Vo
+280	Ralts		280aHuevo	Ps
+281	Kirlia		280bRalts	Ps
+282	Gardevoir	280cKirlia	Ps
+283	Surskit		283aHuevo	Bi	Ag
+284	Masquerain	283bSurskit	Bi	Vo
+285	Shroomish	285aHuevo	Pl
+286	Breloom		285bShroomish	Pl	Lu
+287	Slakoth		287aHuevo	No
+288	Vigoroth	287bSlakoth	No
+289	Slaking		287cVigoroth	No
+290	Nincada		290aHuevo	Bi	Ti
+291	Ninjask		290bNincada	Bi	Vo
+292	Shedinja	290cNincada	Bi	Fa
+293	Whismur		293aHuevo	No
+294	Loudred		293bWhismur	No
+295	Exploud		293cLoudred	No
+296	Makuhita	296aHuevo	Lu
+297	Hariyama	296bMakuhita	Lu
+298	Azurill		183aHuevo	No
+299	Nosepass	299aHuevo	Ro
+300	Skitty		300aHuevo	No
+301	Delcatty	300bSkitty	No
+302	Sableye		302Huevo	Si	Fa
+303	Mawile		303Huevo	Ac
+304	Aron		304aHuevo	Ac	Ro
+305	Lairon		304bAron	Ac	Ro
+306	Aggron		304cLairon	Ac	Ro
+307	Meditite	307aHuevo	Lu	Ps
+308	Medicham	307bMeditite	Lu	Ps
+309	Electrike	309aHuevo	El
+310	Manectric	309bElectrike	El
+311	Plusle		311Huevo	El
+312	Minun		312Huevo	El
+313	Volbeat		313Huevo	Bi
+314	Illumise	314Huevo	Bi
+315	Roselia		315bHuevo/Budew	Pl	Ve
+316	Gulpin		316aHuevo	Ve
+317	Swalot		316bGulpin	Ve
+318	Carvanha	318aHuevo	Ag	Si
+319	Sharpedo	318bCarvanha	Ag	Si
+320	Wailmer		320aHuevo	Ag
+321	Wailord		320bWailmer	Ag
+322	Numel		322aHuevo	Fu	Ti
+323	Camerupt	322bNumel	Fu	Ti
+324	Torkoal		324Huevo	Fu
+325	Spoink		325aHuevo	Ps
+326	Grumpig		325bSpoink	Ps
+327	Spinda		327Huevo	No
+328	Trapinch	328aHuevo	Ti
+329	Vibrava		328bTrapinch	Ti	Dr
+330	Flygon		328cVibrava	Ti	Dr
+331	Cacnea		331aHuevo	Pl
+332	Cacturne	331bCacnea	Pl	Si
+333	Swablu		333aHuevo	No	Vo
+334	Altaria		333bSwablu	Dr	Vo
+335	Zangoose	335Huevo	No
+336	Seviper		336Huevo	Ve
+337	Lunatone	337Huevo	Ro	Ps
+338	Solrock		338Huevo	Ro	Ps
+339	Barboach	339aHuevo	Ag	Ti
+340	Whiscash	339bBarboach	Ag	Ti
+341	Corphish	341aHuevo	Ag
+342	Crawdaunt	341bCorphish	Ag	Si
+343	Baltoy		343aHuevo	Ti	Ps
+344	Claydol		343bBaltoy	Ti	Ps
+345	Lileep		345aHuevo/F. Raï¿½z	Ro	Pl
+346	Cradily		345bLileep	Ro	Pl
+347	Anorith		347aHuevo/F. Garra	Ro	Bi
+348	Armaldo		347bAnorith	Ro	Bi
+349	Feebas		349aHuevo	Ag
+350	Milotic		349bFeebas	Ag
+351	Castform	351Huevo	No
+352	Kecleon		352Huevo	No
+353	Shuppet		353aHuevo	Fa
+354	Banette		353bShuppet	Fa
+355	Duskull		355aHuevo	Fa
+356	Dusclops	355bDuskull	Fa
+357	Tropius		357Huevo	Pl	Vo
+358	Chimecho	358bHuevo/Chingling	Ps
+359	Absol		359Huevo	Si
+360	Wynaut		202aHuevo	Ps
+361	Snorunt		361aHuevo	Hi
+362	Glalie		361bSnorunt	Hi
+363	Spheal		363aHuevo	Hi	Ag
+364	Sealeo		363bSpheal	Hi	Ag
+365	Walrein		363cSealeo	Hi	Ag
+366	Clamperl	366aHuevo	Ag
+367	Huntail		366bClamperl	Ag
+368	Gorebyss	366cClamperl	Ag
+369	Relicanth	369Huevo	Ag	Ro
+370	Luvdisc		370Huevo	Ag
+371	Bagon		371aHuevo	Dr
+372	Shelgon		371bBagon	Dr
+373	Salamence	371cShelgon	Dr	Vo
+374	Beldum		374aHuevo	Ac	Ps
+375	Metang		374bBeldum	Ac	Ps
+376	Metagross	374cMetang	Ac	Ps
+377	Regirock	377ï¿½	Ro
+378	Regice		378ï¿½	Hi
+379	Registeel	379ï¿½	Ac
+380	Latias		380ï¿½	Dr	Ps
+381	Latios		381ï¿½	Dr	Ps
+382	Kyogre		382ï¿½	Ag
+383	Groudon		383ï¿½	Ti
+384	Rayquaza	384ï¿½	Dr	Vo
+385	Jirachi		385ï¿½	Ac	Ps
+386	Deoxys		386ï¿½	Ps
+387	Turtwig		387aHuevo	Pl
+388	Grotle		387bTurtwig	Pl
+389	Torterra	387cGrotle	Pl	Ti
+390	Chimchar	390aHuevo	Fu
+391	Monferno	390bChimchar	Fu	Lu
+392	Infernape	390cMonferno	Fu	Lu
+393	Piplup		393aHuevo	Ag
+394	Prinplup	393bPiplup	Ag
+395	Empoleon	393cPrinplup	Ag	Ac
+396	Starly		396aHuevo	No	Vo
+397	Staravia	396bStarly	No	Vo
+398	Staraptor	396cStaravia	No	Vo
+399	Bidoof		399aHuevo	No
+400	Bibarel		399bBidoof	No	Ag
+401	Kricketot	401aHuevo	Bi
+402	Kricketune	401bKricketot	Bi
+403	Shinx		403aHuevo	El
+404	Luxio		403bShinx	El
+405	Luxray		403cLuxio	El
+406	Budew		315aHuevo	Pl	Ve
+407	Roserade	315cRoselia	Pl	Ve
+408	Cranidos	408aHuevo/F. Calavera	Ro
+409	Rampardos	408bCranidos	Ro
+410	Shieldon	410aHuevo/F. Armadura	Ro	Ac
+411	Bastiodon	410bShieldon	Ro	Ac
+412	Burmy		412aHuevo	Bi
+413	Wormadam	412bBurmy(?)	Bi	TI	Ac
+414	Mothim		412cBurmy(?)	Bi	Vo
+415	Combee		414aHuevo	Bi	Vo
+416	Vespiquen	414bCombee(?)	Bi	Vo
+417	Pachirisu	417Huevo	El
+    418		Buizel		418aHuevo	Ag
+419	Floatzel	418bBuizel	Ag
+420	Cherubi		420aHuevo	Pl
+421	Cherrim		420bCherubi	Pl
+422	Shellos		422aHuevo	Ag
+423	Gastrodon	422bShellos	Ag	Ti
+424	Ambipom		190bAipom	No
+425	Drifloon	425aHuevo	Fa	Vo
+426	Drifblim	425bDrifloon	Fa	Vo
+427	Buneary		427aHuevo	No
+428	Lopunny		427bBuneary	No
+429	Mismagius	200bMisdreavus	Fa
+430	Honchkrow	198bMurkrow	Si	Vo
+431	Glameow		431aHuevo	No
+432	Purugly		431bGlameow	No
+433	Chingling	358aHuevo	Ps
+434	Stunky		434aHuevo	Ve	Si
+435	Skuntank	434bStunky	Ve	Si
+436	Bronzor		436aHuevo	Ac	Ps
+437	Bronzong	436bBronzor	Ac	Ps
+438	Bonsly		185aHuevo	Ro
+439	Mime Jr.	122aHuevo	Ps
+440	Happiny		113aHuevo	No
+441	Chatot		441Huevo	No	Vo
+442	Spiritomb	442Huevo	Fa	Si
+443	Gible		443aHuevo	Ti
+444	Gabite		443bGible	Dr	Ti
+445	Garchomp	443cGabite	Dr	Ti
+446	Munchlax	143aHuevo	No
+447	Riolu		447aHuevo	Lu
+448	Lucario		447bRiolu	Lu	Ac
+449	Hippopotas	449aHuevo	Ti
+450	Hippowdon	449bHippopotas	Ti
+451	Skorupi		451aHuevo	Ve	Bi
+452	Drapion		451bSkorupi	Ve	Si
+453	Croagunk	453aHuevo	Ve	Lu
+454	Toxicroak	453bCroagunk	Ve	Lu
+455	Carnivine	455Huevo	Pl
+456	Finneon		456aHuevo	Ag
+457	Lumineon	457bFinneon	Ag
+458	Mantyke		226aHuevo	Ag	Vo
+459	Snover		459aHuevo	Pl	Hi
+460	Abomasnow	459bSnover	Pl	Hi
+461	Weavile		215bSneasel	Si	Hi
+462	Magnezone	081cMagneton	El	Ac
+463	Lickilicky	108bLickitung	No
+464	Rhyperior	111cRhydon	Ti	Ro
+465	Tangrowth	114bTangela	Pl
+466	Electivire	125cElectabuzz	El
+467	Magmortar	126cMagmar	Fu
+468	Togekiss	175cTogetic	No	Vo
+469	Yanmega		193bYanma	Bi	Vo
+470	Leafeon		133gEevee	Pl
+471	Glaceon		133hEevee	Hi
+472	Gliscor		207bGligar	Ti	Vo
+473	Mamoswine	220cPiloswine	Hi	Ti
+474	Porygon-Z	137cPorygon2	No
+475	Gallade		280dKirlia(?)	Ps	Lu
+476	Probopass	299bNosepass	Ro	Ac
+477	Dusknoir	355cDusclops	Fa
+478	Froslass	361cSnorunt(?)	Hi	Fa
+479	Rotom		479Huevo		El	Fa
+480	Uxie		480ï¿½	Ps
+481	Mesprit		481ï¿½	Ps
+482	Azelf		482ï¿½	Ps
+483	Dialga		483ï¿½	Ac	Dr
+484	Palkia		484ï¿½	Ag	Dr
+485	Heatran		485ï¿½	Fu	Ac
+486	Regigigas	486ï¿½	No
+487	Giratina	487ï¿½	Fa	Dr
+488	Cresselia	488ï¿½	Ps
+489	Phione		489Huevoo	Ag
+490	Manaphy		490Huevoo	Ag
+491	Darkrai		491ï¿½	Si
+492	Shaymin		492ï¿½	Pl
+493	Arceus		493ï¿½	No
